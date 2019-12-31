@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignupActivity">
+
+    <ImageView
+        android:id="@+id/uimg"
+        android:layout_width="match_parent"
+        android:layout_height="237dp"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+
+    <EditText
+        android:id="@+id/etfname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"/>
+
+    <EditText
+        android:id="@+id/etlname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"/>
+
+    <EditText
+        android:id="@+id/etuname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username Name"/>
+
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"/>
+
+    <EditText
+        android:id="@+id/etcpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"/>
+
+    <Button
+        android:id="@+id/btnsigup"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="Sign Up"
+        android:textSize="25dp" />
+
+
+</LinearLayout>
